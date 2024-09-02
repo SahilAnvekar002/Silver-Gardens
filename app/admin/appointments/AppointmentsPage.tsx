@@ -128,7 +128,7 @@ function AppointmentsPage({ appointments }: PropsType) {
                                             <td className="px-4 py-3 dark:text-gray-500">{appointment.fname} {appointment.lname}</td>
                                             <td className="px-4 py-3 dark:text-gray-500">{appointment.address} {appointment.city}</td>
                                             <td className="px-4 py-3 dark:text-gray-500">{appointment.mobile}</td>
-                                            <td className="px-4 py-3 dark:text-gray-500">{moment(new Date(appointment.updatedOn)).calendar()}</td>
+                                            <td className="px-4 py-3 dark:text-gray-500">{moment.utc(appointment.updatedOn).calendar()}</td>
                                             <td className="w-10 text-center dark:text-gray-500">{appointment.status}</td>
                                         </tr>
                                     )
