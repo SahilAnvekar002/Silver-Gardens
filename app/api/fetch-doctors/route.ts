@@ -1,6 +1,8 @@
 import connectToMongo from "@/middleware/connectToMongo";
 import DoctorModel from "@/models/DoctorModel";
 
+export const dynamic = 'force-dynamic';
+
 const handler = async (req: Request) => {
 
     try {

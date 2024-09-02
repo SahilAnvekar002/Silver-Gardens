@@ -25,7 +25,7 @@ export const POST = async (req: Request) => {
             html: `<div style="font-family: Arial, sans-serif; text-align: center;">
             <h2 style="color: #4CAF50;">Appointment Booking</h2>
             <p style="font-size: 18px;">Your appointment has been accepted. Your appointment id is:</p>
-            <h1 style="font-size: 36px; color: #333;">${id}</h1>
+            <h1 style="font-size: 36px; color: #333;">#${id.substring(0,6)}</h1>
             <p style="font-size: 16px; color: #777;">Your appointment is scheduled at ${time}. Please use appointment id for further processing.</p>
           </div>
 `, // HTML body
