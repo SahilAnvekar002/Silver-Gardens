@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px){
+    .images1{
+        display: none;
+    }
+    .images2{
+        width: 50%;
+    }
+    .images3{
+        width: 50%;
+    }
+}
