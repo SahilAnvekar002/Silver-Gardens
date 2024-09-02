@@ -1,6 +1,8 @@
 import connectToMongo from "@/middleware/connectToMongo";
 import BlogModel from "@/models/BlogModel";
 
+export const dynamic = 'force-dynamic';
+
 const handler = async (req: Request) => {
 
     try {
@@ -9,9 +11,7 @@ const handler = async (req: Request) => {
 
         return Response.json({ blogs }, {
             headers: {
-                'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
-                'Pragma': 'no-cache',
-                'Expires': '0',
+                'Cache-Control': 'no-store, max-age=0, must-revalidate', // Ensure no caching
             },
         });
 
