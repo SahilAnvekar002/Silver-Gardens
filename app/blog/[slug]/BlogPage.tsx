@@ -31,7 +31,7 @@ function BlogPage({blog} : PropsType) {
                     })}
                 </div>
                 <h1 className='mt-6 font-semibold dark:text-white'>Author : <span className='font-normal dark:text-white'>{blog.author}</span></h1>
-                <h1 className='mt-2 font-semibold dark:text-white'>Date : <span className='font-normal dark:text-white'>{moment(blog.createdAt).calendar()}</span></h1>
+                <h1 className='mt-2 font-semibold dark:text-white'>Date : <span className='font-normal dark:text-white'>{moment.utc(blog.createdAt).calendar()}</span></h1>
             </div>
         </div>
     )
