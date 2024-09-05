@@ -11,7 +11,7 @@ const handler = async (req: Request) => {
         let updatedAt;
 
         if(time){
-            updatedAt = new Date(time + 'Z');
+            updatedAt = new Date(time);
             //console.log(time)
             //console.log(updatedAt);
         }
