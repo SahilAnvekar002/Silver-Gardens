@@ -155,7 +155,7 @@ function AppointmentModal({ setIsOpen }: PropsType) {
                             </div>
                         </div>
                         <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row sm:px-6 dark:bg-slate-800">
-                            <button type="button" className="inline-flex w-full justify-center rounded-md bg-blue-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 sm:ml-3 sm:w-auto dark:bg-transparent dark:hover:bg-slate-900 dark:border-2 dark:border-gray-700" onClick={() => handleClick()}>Book Appointment</button>
+                            <button type="button" className="inline-flex w-full justify-center rounded-md bg-blue-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 sm:ml-3 sm:w-auto dark:bg-transparent dark:hover:bg-slate-900 dark:border-2 dark:border-gray-700 sm:mb-0 mb-3" onClick={() => handleClick()}>Book Appointment</button>
                             <button type="button" className="inline-flex w-full justify-center rounded-md bg-blue-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 sm:ml-3 sm:w-auto dark:bg-transparent dark:hover:bg-slate-900 dark:border-2 dark:border-gray-700" onClick={() => setIsOpen(false)}>Cancel</button>
                         </div>
                     </div>

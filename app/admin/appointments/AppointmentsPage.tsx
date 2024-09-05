@@ -3,7 +3,7 @@ import AcceptAppointmentModal from '@/components/AcceptAppointmentModal';
 import { setAppointments, updateAppointment } from '@/redux/features/appointment/appointmentSlice';
 import { useAppDispatch, useAppSelector } from '@/redux/store/hooks';
 import { IconCheck, IconX } from '@tabler/icons-react'
-import moment from 'moment';
+import moment from 'moment-timezone';
 import React, { useEffect, useState } from 'react'
 
 interface AppointmentType {
@@ -128,7 +128,7 @@ function AppointmentsPage({ appointments }: PropsType) {
                                             <td className="px-4 py-3 dark:text-gray-500">{appointment.fname} {appointment.lname}</td>
                                             <td className="px-4 py-3 dark:text-gray-500">{appointment.address} {appointment.city}</td>
                                             <td className="px-4 py-3 dark:text-gray-500">{appointment.mobile}</td>
-                                            <td className="px-4 py-3 dark:text-gray-500">{moment.utc(appointment.updatedOn).calendar()}</td>
+                                            <td className="px-4 py-3 dark:text-gray-500">{moment.utc(appointment.updatedOn).tz('Asia/Kolkata').calendar()}</td>
                                             <td className="w-10 text-center dark:text-gray-500">{appointment.status}</td>
                                         </tr>
                                     )

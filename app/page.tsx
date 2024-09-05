@@ -13,7 +13,7 @@ export default function Home() {
     <>
     <div>
       <div className='flex min-h-[70vh] items-center w-[100vw] dark:bg-slate-800 lg:pb-20 lg:pt-6'>
-        <div className='lg:w-[50%] sm:w-[80%] w-[100%] xl:pl-36 lg:pl-32 md:pl-20 pl-10'>
+        <div className='lg:w-[50%] sm:w-[80%] w-[100%] xl:pl-36 lg:pl-32 md:pl-20 pl-10 sm:pr-0 pr-10'>
           <h1 className='xl:text-6xl lg:text-5xl md:text-4xl text-4xl font-semibold mb-6 dark:text-white'>Silver Gardens Hospital</h1>
           <h3 className='xl:text-2xl lg:text-xl md:text-lg text-lg dark:text-gray-500 mb-1'>We provide best services to our patients</h3>
           <h3 className='xl:text-2xl mb-8 lg:text-xl md:text-lg text-lg dark:text-gray-500'>You can book an Appointment with a single click</h3>
