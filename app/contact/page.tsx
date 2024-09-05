@@ -45,7 +45,7 @@ function ContactPage() {
 
     return (
         <div className='flex lg:flex-row flex-col justify-center items-center dark:bg-slate-800'>
-            <div className='flex flex-col justify-center lg:w-1/2 lg:pl-24 lg:pr-10 lg:pt-0 pt-24 lg:px-0 sm:px-32 px-14 lg:pb-0 pb-14 lg:border-none border-b-2 border-gray-200 dark:border-gray-700'>
+            <div className='flex flex-col justify-center lg:w-1/2 lg:pl-24 lg:pr-10 lg:pt-0 pt-20 lg:px-0 sm:px-32 px-14 lg:pb-0 pb-14 lg:border-none border-b-2 border-gray-200 dark:border-gray-700'>
                 <h1 className="title-font sm:text-3xl text-2xl mb-4 font-bold text-gray-900 leading-tight dark:text-white">Get in touch
                 </h1>
                 <p className="mb-8 leading-relaxed text-base sm:text-lg dark:text-gray-500">Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.</p>

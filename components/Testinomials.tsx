@@ -5,7 +5,7 @@ function Testinomials() {
         <section className="text-gray-600 body-font dark:bg-slate-800 pr-4">
             <div className="container px-5 pt-6 pb-24 mx-auto flex flex-col items-center">
                 <h1 className='text-xl text-blue-700 font-bold text-center mb-4 dark:text-gray-600'>Testinomials</h1>
-                <h1 className='text-3xl sm:text-4xl text-black font-bold mb-16 text-center lg:w-[50%] dark:text-white'>We have worked with thousands of amazing people</h1>
+                <h1 className='text-3xl sm:text-4xl text-black font-bold sm:mb-16 mb-12 text-center lg:w-[50%] dark:text-white'>We have worked with thousands of amazing people</h1>
                 <div className="flex flex-wrap -m-4 justify-center">
                     <div className="p-4 lg:w-1/3">
                         <div className=" bg-gray-100 bg-opacity-75 px-8 py-10 rounded-lg overflow-hidden relative dark:bg-slate-900 ">

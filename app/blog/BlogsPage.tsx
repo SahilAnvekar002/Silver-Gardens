@@ -29,7 +29,7 @@ function BlogsPage({ blogs }: PropsType) {
 
     return (
         <section className="text-gray-600 body-font overflow-hidden dark:bg-slate-800 py-5 w-full">
-            <div className="container px-16 py-24 mx-auto">
+            <div className="container px-16 py-20 mx-auto">
                 <div className="flex flex-wrap -m-12">
                     {initialBlogs.length > 0 && initialBlogs.map((blog) => {
                         return (

@@ -66,13 +66,13 @@ function Doctors() {
                 </div>
             </div>
         </section>*/}
-        <div className="bg-white pt-14 pb-28 dark:bg-slate-800">
-  <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+        <div className="bg-white sm:pt-14  sm:pb-28 pb-20 dark:bg-slate-800">
+  <div className="mx-auto grid max-w-7xl gap-x-8 sm:gap-y-20 gap-y-10 px-6 lg:px-8 xl:grid-cols-3">
     <div className="max-w-2xl">
       <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">Meet our Doctors</h2>
       <p className="mt-6 text-lg leading-8 text-gray-600">We have a team of experts doctors who will guide you in every step and be there for you throught the process.</p>
     </div>
-    <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 md:grid-cols-3 sm:gap-y-16 xl:col-span-2">
+    <ul role="list" className="grid gap-x-8 gap-y-8 sm:grid-cols-2 md:grid-cols-3 sm:gap-y-16 xl:col-span-2">
       <li>
         <div className="flex items-center gap-x-6">
           <img className="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>

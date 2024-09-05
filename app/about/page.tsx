@@ -4,7 +4,7 @@ import classes from '@/styles/About.module.css';
 function AboutPage() {
   return (
     <section className="text-gray-600 body-font dark:bg-slate-800">
-      <div className="xl:mx-auto flex px-6 sm:px-16 pb-24 lg:pt-6 pt-24 lg:flex-row flex-col lg:items-center lg:w-[100vw]">
+      <div className="xl:mx-auto flex px-6 sm:px-16 pb-20 lg:pt-6 pt-20 lg:flex-row flex-col lg:items-center lg:w-[100vw]">
         <div className="lg:flex-grow md:w-[70%] lg:w-[50%] md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-6xl text-3xl mb-4 font-bold text-gray-900 leading-tight dark:text-white">We believe in providing best services
           </h1>
@@ -82,7 +82,7 @@ function AboutPage() {
         <img src="https://images.unsplash.com/photo-1577896851905-dc99e1f8b4b9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team" className='max-h-[600px] lg:rounded-xl' />
       </div>
 
-      <div className='px-6 sm:px-16 flex flex-col pb-20 pt-10'>
+      <div className='px-6 sm:px-16 flex flex-col pb-20 sm:pt-10 pt-6'>
         <h1 className='title-font sm:text-3xl text-2xl mb-2 font-bold text-gray-900 leading-tight dark:text-white'>Our Values</h1>
         <p className="leading-relaxed sm:text-lg text-base dark:text-gray-500">Lorem ipsum dolor sit amet Lorem ipsum dolor sit Lorem, ipsum dolor.</p>
         <p className="lg:mb-10 mb-5 leading-relaxed sm:text-lg text-base dark:text-gray-500">Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
